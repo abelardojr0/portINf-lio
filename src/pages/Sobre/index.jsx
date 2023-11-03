@@ -1,6 +1,5 @@
 import { Section, Title } from "../../GlobalStyle";
 import { SobreContainer, SobreImg, SobreText } from "./style";
-import detail from "../../assets/sobre_detalhe.png";
 export const Sobre = () => {
   return (
     <Section>
@@ -15,7 +14,7 @@ export const Sobre = () => {
           eius deserunt vel, eos, iure optio ex. Ipsum similique eligendi
           commodi corporis odio laborum.
         </SobreText>
-        <SobreImg src={detail} />
+        <SobreImg src={"https://i.imgur.com/6rDZ9x2.png"} />
       </SobreContainer>
     </Section>
   );
